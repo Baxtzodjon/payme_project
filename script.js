@@ -1,4 +1,4 @@
-const URL = "http://localhost:9000/users";
+// const URL = "http://localhost:9000/users";
 
 /* axios.get(URL)
     .then((res) => console.log(res.data)) */
@@ -86,11 +86,11 @@ function submit() {
 
     console.log(user);
 
-    axios.post(URL, user)
-    .then((res) => {
-        console.log(res.data);
-    })
-    .catch((error) => {
-        console.error(error);
-    });
+    // axios.post(URL, user)
+    // .then((res) => {
+    //     console.log(res.data);
+    // })
+    // .catch((error) => {
+    //     console.error(error);
+    // });
 }

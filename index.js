@@ -1,7 +1,7 @@
-const URL = "http://localhost:9000/users";
+// const URL = "http://localhost:9000/users";
 
-axios.get(URL)
-    .then((res) => console.log(res.data));
+// axios.get(URL)
+//     .then((res) => console.log(res.data));
 
 function myFunction() {
     let x = document.getElementById("loginPassword");
