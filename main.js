@@ -16,10 +16,11 @@ let svg_img = document.createElement('img');
 header.classList.add('header')
 nav.classList.add('navbar')
 account.classList.add('account')
+a_home.classList.add('active')
 
 a_home.setAttribute('href', '#')
-a_my_wallets.setAttribute('href', '#')
-a_transactions.setAttribute('href', '#')
+a_my_wallets.setAttribute('href', './wallet.html')
+a_transactions.setAttribute('href', './transaction.html')
 
 a_home.innerHTML = 'Главная'
 a_my_wallets.innerHTML = 'Мои кошельки'
@@ -27,7 +28,7 @@ a_transactions.innerHTML = 'Мои транзакции'
 a_account.innerHTML = 'baxtzod@gmail.com'
 
 a_account.setAttribute('href', '#')
-a_svg.setAttribute('href', '#')
+a_svg.setAttribute('href', './index.html')
 svg_img.setAttribute('src', './img/icon_logout.svg')
 svg_img.setAttribute('alt', 'icon log out')
 

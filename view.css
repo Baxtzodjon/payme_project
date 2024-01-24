@@ -55,8 +55,10 @@ img {
     transition: .5s ease;
 }
 
-.navbar a:hover {
+.navbar a:hover,
+.navbar a.active {
     color: #0047FF;
+    text-decoration: underline;
 }
 
 main {
@@ -104,36 +106,92 @@ main {
     width: 282px;
     height: 160px;
     border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
     background: linear-gradient(84deg, #D7816A 2.27%, #BD4F6C 92.26%);
+}
+
+.my_credit_card1:hover {
+    transform: scale(1.05);
 }
 
 .my_credit_card2 {
     width: 282px;
     height: 160px;
     border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
     background: linear-gradient(84deg, #5F0A87 2.27%, #A4508B 92.26%);
+}
+
+.my_credit_card2:hover {
+    transform: scale(1.05);
 }
 
 .my_credit_card3 {
     width: 282px;
     height: 160px;
     border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
     background: linear-gradient(84deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+
+.my_credit_card3:hover {
+    transform: scale(1.05);
 }
 
 .my_credit_card4 {
     width: 282px;
     height: 160px;
     border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
     background: linear-gradient(84deg, #380036 2.27%, #0CBABA 92.26%);
 }
 
-/* .my_credit_card5 {
+.my_credit_card4:hover {
+    transform: scale(1.05);
+}
+
+.my_credit_card5 {
     width: 282px;
     height: 160px;
     border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
+    background: linear-gradient(84deg, #20BF55 2.27%, #01BAEF 92.26%);
+}
+
+.my_credit_card5:hover {
+    transform: scale(1.05);
+}
+
+.my_credit_card6 {
+    width: 282px;
+    height: 160px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
     background: linear-gradient(84deg, #53ca8c 2.27%, #232929 92.26%);
-} */
+}
+
+.my_credit_card6:hover {
+    transform: scale(1.05);
+}
+
+.my_credit_card7 {
+    width: 282px;
+    height: 160px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .5s ease;
+    background: linear-gradient(84deg, #5F0A87 2.27%, #A4508B 92.26%);
+}
+
+.my_credit_card7:hover {
+    transform: scale(1.05);
+}
 
 .first_span {
     color: #FFF;
@@ -193,7 +251,7 @@ main {
 }
 
 table {
-   /*  position: absolute;
+    /*  position: absolute;
     left: 50%;
     top: 88%;
     transform: translate(-50%, -50%); */
@@ -235,4 +293,64 @@ tr:hover {
     background-color: #f5f5f5;
     transform: scale(1.02);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn_add {
+    width: 438px;
+    height: 56px;
+    border-radius: 10px;
+    background: #0047FF;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease;
+    margin: 44px 0 0 160px;
+}
+
+.btn_add:hover {
+    width: 500px;
+    height: 56px;
+    transform: scale(1.05);
+    font-size: 20px;
+    border: 2px solid #f5f5f5;
+    box-shadow: 5px 5px 0 red;
+}
+
+.btn_add:active {
+    color: #000;
+    background-color: red;
+    box-shadow: -5px -5px 0 #0047FF;
+}
+
+.transaction_add_btn {
+    width: 175px;
+    height: 35px;
+    border-radius: 10px;
+    background: #0047FF;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease;
+    margin: 15px 0 0 0;
+}
+
+.transaction_add_btn:hover {
+    font-size: 20px;
+    transform: scale(1.05);
+    border: 2px solid #f5f5f5;
+    box-shadow: 5px 5px 0 red;
+}
+
+.transaction_add_btn:active {
+    color: #000;
+    background-color: red;
+    box-shadow: -5px -5px 0 #0047FF;
 }
